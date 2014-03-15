@@ -25,8 +25,8 @@ use warnings;
 =cut
 
 
-our $VERSION = '$Rev$';
-our $RELEASE = '1.10';
+our $VERSION = '1.11';
+our $RELEASE = '1.11';
 our $SHORTDESCRIPTION = 'Yet another nice lightbox plugin';
 our $NO_PREFS_IN_TOPIC = 1;
 
@@ -39,7 +39,7 @@ call this to init the plugin from perl
 =cut
 
 sub init {
-  require Foswiki::Plugins::JQueryPlugin ();
+  require Foswiki::Plugins::JQueryPlugin;
   Foswiki::Plugins::JQueryPlugin::registerPlugin("PrettyPhoto", "Foswiki::Contrib::JQPrettyPhotoContrib::Core");
 }
 

@@ -746,7 +746,7 @@
 		function _get_scroll(){
 			if (self.pageYOffset) {
 				return {scrollTop:self.pageYOffset,scrollLeft:self.pageXOffset};
-			} else if (document.documentElement && document.documentElement.scrollTop) { // Explorer 6 Strict
+			} else if (document.documentElement && typeof(document.documentElement.scrollTop) !== 'undefined') { // Explorer 6 Strict
 				return {scrollTop:document.documentElement.scrollTop,scrollLeft:document.documentElement.scrollLeft};
 			} else if (document.body) {// all other Explorers
 				return {scrollTop:document.body.scrollTop,scrollLeft:document.body.scrollLeft};
