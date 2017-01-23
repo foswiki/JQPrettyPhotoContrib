@@ -1,6 +1,6 @@
 # Plugin for Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 #
-# JQPrettyPhotoContrib is Copyright (C) 2011 Michael Daum http://michaeldaumconsulting.com
+# JQPrettyPhotoContrib is Copyright (C) 2011-2017 Michael Daum http://michaeldaumconsulting.com
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -25,8 +25,8 @@ use warnings;
 =cut
 
 
-our $VERSION = '1.11';
-our $RELEASE = '1.11';
+our $VERSION = '1.20';
+our $RELEASE = '23 Jan 2017';
 our $SHORTDESCRIPTION = 'Yet another nice lightbox plugin';
 our $NO_PREFS_IN_TOPIC = 1;
 

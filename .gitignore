@@ -1,0 +1,13 @@
+*.swp
+*.gz
+igp_*
+pub/System/JQPrettyPhotoContrib/jquery.prettyPhoto.init.js
+pub/System/JQPrettyPhotoContrib/jquery.prettyPhoto.js
+pub/System/JQPrettyPhotoContrib/jquery.prettyPhoto.css
+/JQPrettyPhotoContrib.md5
+/JQPrettyPhotoContrib.sha1
+/JQPrettyPhotoContrib.tgz
+/JQPrettyPhotoContrib.txt
+/JQPrettyPhotoContrib.zip
+/JQPrettyPhotoContrib_installer
+/JQPrettyPhotoContrib_installer.pl

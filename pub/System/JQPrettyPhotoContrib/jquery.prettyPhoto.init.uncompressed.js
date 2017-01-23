@@ -11,7 +11,7 @@ jQuery(function($) {
 
   $(".jqPrettyPhoto:not(.jqInitedPrettyPhoto)").livequery(function() {
     var $this = $(this),
-        opts = $.extend({}, defaults, $this.metadata()),
+        opts = $.extend({}, defaults, $this.data(), $this.metadata()),
         groupRel = "prettyPhoto["+Math.floor(Math.random() * 100)+"]";
 
     $this.addClass("jqInitedPrettyPhoto");
@@ -19,7 +19,7 @@ jQuery(function($) {
     function initPrettyPhoto() {
       $this.find(opts.itemSelector).attr('rel', groupRel).each(function() {
         var $el = $(this), 
-            imgOpts = $.extend({}, $el.metadata()),
+            imgOpts = $.extend({}, $el.data(), $el.metadata()),
             text = $el.find("img").attr('alt') || '', 
             href = imgOpts.origUrl || $el.attr('href');
 
