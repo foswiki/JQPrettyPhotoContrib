@@ -37,7 +37,6 @@ sub new {
       css => ['jquery.prettyPhoto.css'],
       javascript => ['jquery.prettyPhoto.js', 'jquery.prettyPhoto.init.js'],
       puburl => '%PUBURLPATH%/%SYSTEMWEB%/JQPrettyPhotoContrib',
-      dependencies => ["metadata"],
     ),
     $class
   );
@@ -50,7 +49,7 @@ sub new {
 __END__
 Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 
-Copyright (C) 2011-2017 Michael Daum http://michaeldaumconsulting.com
+Copyright (C) 2011-2025 Michael Daum http://michaeldaumconsulting.com
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

@@ -1,3 +1,4 @@
+!noci
 data/System/JQPrettyPhotoContrib.txt 0644
 lib/Foswiki/Contrib/JQPrettyPhotoContrib/Config.spec 0644
 lib/Foswiki/Contrib/JQPrettyPhotoContrib/Core.pm 0644

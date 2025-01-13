@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1302157505" format="1.1" reprev="2" version="3"}%
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1736788090" format="1.1"  version="1"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -37,20 +37,21 @@ will automatically switch from slimbox to prettyPhoto for lightboxing.
 
 ---++ Change History
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  13 Jan 2025: | removed depencency on jquery.metadata |
 |  23 Jan 2017: | make sure the package is still release-able; deprecated jquery.metadata - use html5 data instead |
 |  30 Sep 2011: | upgrading to prettyPhoto 3.1.3; \
                   switching off overlay gallery by default for performance reasons |
 |  06 Apr 2011: | initial release |
 
 
-%META:FILEATTACHMENT{name="5.jpg" attachment="5.jpg" attr="" comment="" date="1302089011" size="44257" user="ProjectContributor" version="1"}%
-%META:FILEATTACHMENT{name="4.jpg" attachment="4.jpg" attr="" comment="" date="1302089012" size="98304" user="ProjectContributor" version="1"}%
-%META:FILEATTACHMENT{name="3.jpg" attachment="3.jpg" attr="" comment="" date="1302089014" size="35532" user="ProjectContributor" version="1"}%
-%META:FILEATTACHMENT{name="2.jpg" attachment="2.jpg" attr="" comment="" date="1302089016" size="84412" user="ProjectContributor" version="1"}%
-%META:FILEATTACHMENT{name="1.jpg" attachment="1.jpg" attr="" comment="" date="1302089018" size="61924" user="ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="5.jpg" attachment="5.jpg" attr="" comment="" date="1736788090" size="44257" user="ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="4.jpg" attachment="4.jpg" attr="" comment="" date="1736788090" size="98304" user="ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="3.jpg" attachment="3.jpg" attr="" comment="" date="1736788090" size="35532" user="ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="2.jpg" attachment="2.jpg" attr="" comment="" date="1736788090" size="84412" user="ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="1.jpg" attachment="1.jpg" attr="" comment="" date="1736788090" size="61924" user="ProjectContributor" version="1"}%
 %META:FORM{name="PackageForm"}%
 %META:FIELD{name="Author" title="Author" value="Michael Daum"}%
-%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2011-2017 Michael Daum http://michaeldaumconsulting.com"}%
+%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2011-2025 Michael Daum"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
 %META:FIELD{name="Home" title="Home" value="Foswiki:Extensions/%TOPIC%"}%
 %META:FIELD{name="License" title="License" value="[[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]]"}%

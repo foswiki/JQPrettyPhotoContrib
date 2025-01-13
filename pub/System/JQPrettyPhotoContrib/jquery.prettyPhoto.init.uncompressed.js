@@ -1,3 +1,4 @@
+"use strict";
 jQuery(function($) {
   var defaults = {
     show_title: true,
@@ -9,17 +10,15 @@ jQuery(function($) {
     overlay_gallery: false
   };
 
-  $(".jqPrettyPhoto:not(.jqInitedPrettyPhoto)").livequery(function() {
+  $(".jqPrettyPhoto").livequery(function() {
     var $this = $(this),
-        opts = $.extend({}, defaults, $this.data(), $this.metadata()),
+        opts = $.extend({}, defaults, $this.data()),
         groupRel = "prettyPhoto["+Math.floor(Math.random() * 100)+"]";
-
-    $this.addClass("jqInitedPrettyPhoto");
 
     function initPrettyPhoto() {
       $this.find(opts.itemSelector).attr('rel', groupRel).each(function() {
         var $el = $(this), 
-            imgOpts = $.extend({}, $el.data(), $el.metadata()),
+            imgOpts = $.extend({}, $el.data()),
             text = $el.find("img").attr('alt') || '', 
             href = imgOpts.origUrl || $el.attr('href');
 

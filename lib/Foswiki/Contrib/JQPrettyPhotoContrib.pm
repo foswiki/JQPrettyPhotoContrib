@@ -1,6 +1,6 @@
 # Plugin for Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 #
-# JQPrettyPhotoContrib is Copyright (C) 2011-2017 Michael Daum http://michaeldaumconsulting.com
+# JQPrettyPhotoContrib is Copyright (C) 2011-2025 Michael Daum http://michaeldaumconsulting.com
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -18,29 +18,11 @@ package Foswiki::Contrib::JQPrettyPhotoContrib;
 use strict;
 use warnings;
 
-=begin TML
-
----+ package JQPrettyPhotoContrib
-
-=cut
-
-
-our $VERSION = '1.20';
-our $RELEASE = '23 Jan 2017';
+our $VERSION = '1.21';
+our $RELEASE = '%$RELEASE%';
 our $SHORTDESCRIPTION = 'Yet another nice lightbox plugin';
+our $LICENSECODE = '%$LICENSECODE%';
 our $NO_PREFS_IN_TOPIC = 1;
 
-=begin TML
-
----++ init() -> $boolean
-
-call this to init the plugin from perl
-
-=cut
-
-sub init {
-  require Foswiki::Plugins::JQueryPlugin;
-  Foswiki::Plugins::JQueryPlugin::registerPlugin("PrettyPhoto", "Foswiki::Contrib::JQPrettyPhotoContrib::Core");
-}
 
 1;
